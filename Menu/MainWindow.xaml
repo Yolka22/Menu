@@ -1,0 +1,46 @@
+﻿<Window x:Class="Menu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Menu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+
+        <Menu IsMainMenu="True">
+
+            <MenuItem Header="File">
+
+                <MenuItem Header="New">
+
+                    <MenuItem Header="Project" InputGestureText="Ctrl+shift+N"></MenuItem>
+                    <MenuItem Header="Web Site" InputGestureText="Shift+Alt+N"></MenuItem>
+                    <MenuItem Header="Team project"></MenuItem>
+                    <MenuItem Header="File" InputGestureText="Ctrl+N"></MenuItem>
+                    
+                </MenuItem>
+                
+                
+                <MenuItem Header="Open"></MenuItem>
+
+                <Separator></Separator>
+
+                <MenuItem Header="Close"></MenuItem>
+
+                <Separator></Separator>
+
+                <MenuItem Header="Save"></MenuItem>
+
+                <Separator></Separator>
+
+                <MenuItem Header="Save As"></MenuItem>
+                
+            </MenuItem>
+            
+        </Menu>
+        
+        
+    </Grid>
+</Window>
